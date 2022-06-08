@@ -9,9 +9,9 @@ Estes são os projetos que eu criei para conseguir os certificados do site Free 
 ##### Aqui estão algumas imagens de como ficou o formulario de pesquisa (Survey Form)
 
 Imagem 01 <br />
-<img src="https://github.com/dev-david-alves/FCC-Projects/blob/main/Survey-Form/images/img-1.png?raw=true" width="500"/>
+<img src="https://github.com/dev-david-alves/FCC-Projects/blob/main/Survey-Form/images/img-1.png?raw=true" width="400"/>
 
 Imagem 02 <br />
-<img src="https://github.com/dev-david-alves/FCC-Projects/blob/main/Survey-Form/images/img-2.png?raw=true" alt="image-2" width="500"/>
+<img src="https://github.com/dev-david-alves/FCC-Projects/blob/main/Survey-Form/images/img-2.png?raw=true" alt="image-2" width="400"/>
 
 ### Aprendi muito neste curso, conhecimentos que com certeza alavancarão minha carreira.

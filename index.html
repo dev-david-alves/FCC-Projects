@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Survey Form</title>
+        <link rel="stylesheet" type="text/css" src="styles.css" />
+    </head>
+    <body>
+        <header>
+            <h1 id="title">David's Survey Form</h1>
+            <p id="description">This is my first certification project.</p>
+        </header>
+        <main>
+            <form id="survey-form">
+                <label id="name-label" for="name">Name</label>
+                <input
+                    type="text"
+                    id="name"
+                    placeholder="Enter your name"
+                    required
+                />
+
+                <label id="email-label" for="email">Email</label>
+                <input
+                    type="email"
+                    id="email"
+                    placeholder="Enter your email"
+                    required
+                />
+
+                <label id="number-label" for="number">Age (Optional)</label>
+                <input
+                    type="number"
+                    id="number"
+                    min="12"
+                    max="120"
+                    placeholder="Enter your age"
+                />
+
+                <label id="select-label" for="dropdown"
+                    >Which programming language do you prefer?</label
+                >
+                <select id="dropdown">
+                    <option value="">Select an option</option>
+                    <option value="java">Java</option>
+                    <option value="c++">C++</option>
+                    <option value="c#">C#</option>
+                    <option value="python">Python</option>
+                    <option value="javascript">JavaScript</option>
+                </select>
+
+                <label id="radio-label" for="gender">Enter your gender</label>
+                <input type="radio" name="gender" id="gender" value="male" />
+                Male
+                <input type="radio" name="gender" id="gender" value="female" />
+                Female
+
+                <label id="checkbox-label" for="checkbox"
+                    >Animals that you like (Check all that apply)</label
+                >
+                <label><input type="checkbox" value="cat" /> Cat</label>
+                <label><input type="checkbox" value="dog" /> Dog</label>
+                <label><input type="checkbox" value="frog" /> Frog</label>
+                <label><input type="checkbox" value="horse" /> Horse</label>
+                <label><input type="checkbox" value="mouse" /> Mouse</label>
+
+                <label id="checkbox-label" for="checkbox"
+                    >Tell us a little more about yourself
+                    <textarea
+                        rows="5"
+                        cols="40"
+                        placeholder="Enter your description"
+                    ></textarea>
+                </label>
+
+                <input type="submit" value="Submit" />
+            </form>
+        </main>
+    </body>
+</html>

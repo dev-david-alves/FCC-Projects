@@ -1,18 +1,23 @@
-# FCC-Projects
-Estes são os projetos que eu criei para conseguir os certificados do site Free Code Camp
+# Tribute Page
 
-## Primeiro comecei pelo curso de Web Design Responsivo
-- Precisava ter quase todos os tipos de inputs principais
-- Precisava ter id's, nomes e labels correspondents para cada input
-- Alguns inputs eram obrigatórios e outros tinham suas restrições cabíveis ao tipo de input
-- A estilização da maioria das partes era opcional
+## O que o projeto pedia:
+### Uma página simples de tributo (Resumo da história de alguém importante).
+- Precisava ter um título e subtítulo
+- Ter uma imagem representativa com uma legenda
+- Precisava ter id's para quase todos os elementos da página
+- Para mostrar os pontos da história criei cards e os distribuí com flexbox, já que era uma distribuição simples.
+- Estilização era opcional
 
-##### Aqui estão algumas imagens de como ficou o formulario
+## Tecnologias usadas:
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 
-Primeira parte do formulário <br />
-<img src="https://github.com/dev-david-alves/FCC-Projects/blob/main/images/img-1.png?raw=true" alt="image-1" width="500"/>
+##### Aqui estão algumas imagens de como ficou a página de tributo
 
-Segunda parte do formulário <br />
-<img src="https://github.com/dev-david-alves/FCC-Projects/blob/main/images/img-2.png?raw=true" alt="image-2" width="500"/>
+Primeira parte <br />
+<img src="https://github.com/dev-david-alves/FCC-Projects/blob/main/Tribute-Page/images/img-1.png?raw=true" alt="image-1" width="500"/>
 
-### Aprendi muito neste curso, conhecimentos que com certeza alavancarão minha carreira.
+Segunda parte <br />
+<img src="https://github.com/dev-david-alves/FCC-Projects/blob/main/Tribute-Page/images/img-2.png?raw=true" alt="image-2" width="500"/>
+
+Terceira parte <br />
+<img src="https://github.com/dev-david-alves/FCC-Projects/blob/main/Tribute-Page/images/img-3.png?raw=true" alt="image-2" width="500"/>

@@ -20,4 +20,4 @@ Segunda parte <br />
 <img src="https://github.com/dev-david-alves/FCC-Projects/blob/main/Tribute-Page/images/img-2.png?raw=true" alt="image-2" width="500"/>
 
 Terceira parte <br />
-<img src="https://github.com/dev-david-alves/FCC-Projects/blob/main/Tribute-Page/images/img-3.png?raw=true" alt="image-2" width="500"/>
+<img src="https://github.com/dev-david-alves/FCC-Projects/blob/main/Tribute-Page/images/img-3.png?raw=true" alt="image-3" width="500"/>

@@ -9,32 +9,50 @@ Estes são os projetos que eu criei para conseguir o certificado de 300 horas do
 
 ##### Imagens do projeto Formulario de Pesquisa (Survey Form)
 
-Imagem 01 <br />
-<img src="https://github.com/dev-david-alves/FCC-Projects/blob/main/Survey-Form/images/img-1.png?raw=true" alt="image-1" width="300"/>
-
-Imagem 02 <br />
-<img src="https://github.com/dev-david-alves/FCC-Projects/blob/main/Survey-Form/images/img-2.png?raw=true" alt="image-2" width="300"/>
+<table cellpadding="0">
+  <tr style="padding: 0">  
+    <td valign="top">
+      <img src="https://github.com/dev-david-alves/FCC-Projects/blob/main/Survey-Form/images/img-1.png?raw=true" alt="image-1" width="500"/>
+    </td>
+    <td valign="top">
+      <img src="https://github.com/dev-david-alves/FCC-Projects/blob/main/Survey-Form/images/img-2.png?raw=true" alt="image-2" width="500"/>
+    </td>
+  </tr>
+</table>
 
 ##### Imagens do projeto Página de Tributo (Tribute Page)
 
-Imagem 01 <br />
-<img src="https://github.com/dev-david-alves/FCC-Projects/blob/main/Tribute-Page/images/img-1.png?raw=true" alt="image-1" width="300"/>
-
-Imagem 02 <br />
-<img src="https://github.com/dev-david-alves/FCC-Projects/blob/main/Tribute-Page/images/img-2.png?raw=true" alt="image-2" width="300"/>
-
-Imagem 03 <br />
-<img src="https://github.com/dev-david-alves/FCC-Projects/blob/main/Tribute-Page/images/img-3.png?raw=true" alt="image-3" width="300"/>
+<table cellpadding="0">
+  <tr style="padding: 0">  
+    <td valign="top">
+      <img src="https://github.com/dev-david-alves/FCC-Projects/blob/main/Tribute-Page/images/img-1.png?raw=true" alt="image-1" width="400"/>
+    </td>
+    <td valign="top">
+      <img src="https://github.com/dev-david-alves/FCC-Projects/blob/main/Tribute-Page/images/img-2.png?raw=true" alt="image-2" width="400"/>
+    </td>
+    <td valign="top">
+      <img src="https://github.com/dev-david-alves/FCC-Projects/blob/main/Tribute-Page/images/img-3.png?raw=true" alt="image-3" width="400"/>
+    </td>
+  </tr>
+</table>
 
 ##### Imagens do projeto Página de Documentação Técnica (Technical Documentation Page)
 
-Imagem 01 <br />
-<img src="https://github.com/dev-david-alves/FCC-Projects/blob/main/Technical-Documentation-Page/images/img-1.png?raw=true" alt="image-1" width="300"/>
+<table cellpadding="0">
+  <tr style="padding: 0">  
+    <td valign="top">
+      <img src="https://github.com/dev-david-alves/FCC-Projects/blob/main/Technical-Documentation-Page/images/img-1.png?raw=true" alt="image-1" width="400"/>
+    </td>
+    <td valign="top">
+      <img src="https://github.com/dev-david-alves/FCC-Projects/blob/main/Technical-Documentation-Page/images/img-2.png?raw=true" alt="image-2" width="400"/>
+    </td>
+    <td valign="top">
+      <img src="https://github.com/dev-david-alves/FCC-Projects/blob/main/Technical-Documentation-Page/images/img-3.png?raw=true" alt="image-3" width="400"/>   
+    </td>
+  </tr>
+</table> 
 
-Imagem 02 <br />
-<img src="https://github.com/dev-david-alves/FCC-Projects/blob/main/Technical-Documentation-Page/images/img-2.png?raw=true" alt="image-2" width="300"/>
+<hr />
 
-Imagem 03 <br />
-<img src="https://github.com/dev-david-alves/FCC-Projects/blob/main/Technical-Documentation-Page/images/img-3.png?raw=true" alt="image-3" width="300"/>                                                                                                                                    
-
-### Aprendi muito neste curso, conhecimentos que com certeza alavancarão minha carreira.
+### Este curso com certeza acrescentou bastante ao meu conhecimento, aprendi novas coisas tanto em HTML quanto em CSS que levarei para minha carreira profissional.
+## :grin: Sou grato a todo o Time [Free Code Camp](https://www.freecodecamp.org)

@@ -12,8 +12,8 @@
 
 ##### Aqui estão algumas imagens de como ficou o formulario
 
-Primeira parte do formulário <br />
+Primeira parte<br />
 <img src="https://github.com/dev-david-alves/FCC-Projects/blob/main/Survey-Form/images/img-1.png?raw=true" alt="image-1" width="500"/>
 
-Segunda parte do formulário <br />
+Segunda parte<br />
 <img src="https://github.com/dev-david-alves/FCC-Projects/blob/main/Survey-Form/images/img-2.png?raw=true" alt="image-2" width="500"/>

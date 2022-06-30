@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Product Landing Page</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <header id="header">
+            <nav id="nav-bar">
+                <img
+                    src="./images/coca-cola-logo.png"
+                    alt="logo"
+                    class="logo"
+                    id="header-img"
+                />
+                <ul>
+                    <li><a href="#work" class="nav-link">Work for us</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section id="work">
+                <h2>Work for us</h2>
+                <div class="step-wrap">
+                    <div class="step">
+                        <h3>Step 1</h3>
+                        <span
+                            >Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Necessitatibus, possimus?</span
+                        >
+                    </div>
+                    <div class="step">
+                        <h3>Step 2</h3>
+                        <span
+                            >Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Necessitatibus, possimus?</span
+                        >
+                    </div>
+                    <div class="step">
+                        <h3>Step 3</h3>
+                        <span
+                            >Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Necessitatibus, possimus?</span
+                        >
+                    </div>
+                </div>
+            </section>
+            <section id="videos">
+                <h2>Last Promo</h2>
+                <iframe
+                    width="720"
+                    height="400"
+                    src="https://www.youtube.com/embed/pbK4nRKkkao"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                    id="video"
+                ></iframe>
+            </section>
+            <section id="about">
+                <h2>About us</h2>
+                <div>
+                    <img src="images/people.jpg" alt="people" class="people" />
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Deleniti, commodi quia odit blanditiis nulla laboriosam
+                        labore totam quis quas distinctio error nihil minima
+                        odio pariatur molestias! Consequuntur saepe corrupti nam
+                        unde magni, ipsam esse. Placeat ratione aperiam ut nam
+                        quidem? Recusandae praesentium eos aperiam possimus fuga
+                        obcaecati nostrum exercitationem quisquam accusantium
+                        quibusdam saepe eius, sint quae? Deleniti fugiat
+                        temporibus dolores soluta at optio veniam dolorem
+                        aliquam officia ratione. Cum praesentium officiis
+                        numquam tempora, ad dolorem maiores ratione eaque,
+                        placeat ullam, sed accusamus deleniti. Molestias dolorum
+                        ipsum esse eius accusamus. Laudantium cupiditate ipsam
+                        animi accusamus eos architecto, quod fugit deserunt
+                        dolorem quisquam perspiciatis sequi saepe aut reiciendis
+                        praesentium, vel nobis possimus vitae et laboriosam
+                        omnis excepturi asperiores.
+                    </p>
+                </div>
+            </section>
+            <section id="contact">
+                <h2>Contact us</h2>
+                <form
+                    id="form"
+                    method="POST"
+                    action="https://www.freecodecamp.com/email-submit"
+                >
+                    <input
+                        type="email"
+                        name="email"
+                        id="email"
+                        placeholder="Enter your email"
+                    />
+                    <textarea
+                        name="message"
+                        placeholder="Enter your message"
+                    ></textarea>
+                    <input type="submit" id="submit" value="Send" />
+                </form>
+            </section>
+        </main>
+        <footer>
+            <ul>
+                <li><a href="#" class="footer-link">Privacy</a></li>
+                <li><a href="#" class="footer-link">Terms</a></li>
+                <li><a href="#contact" class="footer-link">Contact</a></li>
+            </ul>
+            <address>By <a href="#">David Alves</a></address>
+        </footer>
+    </body>
+</html>

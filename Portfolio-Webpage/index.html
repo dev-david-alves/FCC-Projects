@@ -6,13 +6,17 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Personal Portfolio Webpage</title>
         <link rel="stylesheet" href="styles.css" />
+        <link
+            href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+            rel="stylesheet"
+        />
     </head>
     <body>
         <nav class="navbar">
             <ul>
-                <li><a href="#">About the Author</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#welcome-section">About the Author</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
         <section id="welcome-section">
@@ -21,6 +25,7 @@
                 I'm <span id="author">David Alves</span> a
                 <span id="special">Frontend Developer</span>
             </h1>
+            <i class="ri-arrow-down-fill"></i>
         </section>
         <section id="projects">
             <h2>These are some of my projects</h2>
@@ -68,24 +73,26 @@
                     <a href="#">Project 01</a>
                 </div>
             </div>
-            <button class="show-all">Show all</button>
+            <button class="show-all">
+                Show all <i class="ri-arrow-right-line"></i>
+            </button>
         </section>
         <section id="contact">
-            <h2>Let's build cool things together</h2>
+            <h2>Let's build cool things together...</h2>
             <span>You can call me whenever you want! See you later</span>
             <div class="contact-area">
-                <div class="brand">
-                    <i></i>
-                    <span>GitHub</span>
-                </div>
-                <div class="brand">
-                    <i></i>
-                    <span>LinkedIn</span>
-                </div>
-                <div class="brand">
-                    <i></i>
-                    <span>Email</span>
-                </div>
+                <a href="#" class="brand">
+                    <i class="ri-github-fill"></i>
+                    GitHub
+                </a>
+                <a href="#" class="brand">
+                    <i class="ri-linkedin-box-fill"></i>
+                    LinkedIn
+                </a>
+                <a href="#" class="brand">
+                    <i class="ri-mail-fill"></i>
+                    Email
+                </a>
             </div>
         </section>
         <footer>

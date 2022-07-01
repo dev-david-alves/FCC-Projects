@@ -13,6 +13,7 @@
 
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -83,6 +84,25 @@ body {
 
 #welcome-section #special {
   color: coral;
+}
+
+#welcome-section i {
+  font-size: 7rem;
+  color: #fff;
+  margin-bottom: 20px;
+  animation: moveI infinite 1s linear;
+}
+
+@keyframes moveI {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
 
 #projects {
@@ -158,10 +178,72 @@ body {
   transition: .3s ease-in-out;
   margin-top: 40px;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #projects button:hover {
   background-color: rgb(141, 20, 20);
+}
+
+#projects button i {
+  margin-left: 10px;
+  font-size: 2.5rem;
+}
+
+#contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 400px;
+}
+
+#contact h2 {
+  font-size: 5rem;
+  color: #fff;
+}
+
+#contact span {
+  font-size: 2rem;
+  color: rgb(105, 105, 105);
+  margin-bottom: 25px;
+}
+
+#contact .contact-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+}
+
+#contact .contact-area .brand {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 50px;
+  background-color: #1a1a1a;
+  border-radius: 5%;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+  transition: .3s ease-in-out;
+  margin: 0 20px;
+  font-size: 1.8rem;
+  color: #fff;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+#contact .contact-area .brand:hover {
+  background-color: rgb(141, 20, 20);
+}
+
+#contact .contact-area .brand i {
+  margin-right: 10px;
+  font-size: 3rem;
 }
 
 footer {

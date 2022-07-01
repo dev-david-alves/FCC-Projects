@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+:root {
+  --nav-height: 60px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background: #1a1a1a;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  height: var(--nav-height);
+  background-color: rgb(19, 19, 19);
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar ul li {
+  display: flex;
+  align-items: center;
+  margin: 0 10px;
+}
+
+.navbar ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.8rem;
+  transition: 0.3s ease-in-out;
+}
+
+.navbar ul li a:hover {
+  color: red;
+  font-size: 2rem;
+}
+
+#welcome-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: calc(100vh - var(--nav-height));
+}
+
+#welcome-section #hello {
+  font-size: 5rem;
+  color: aqua;
+  font-weight: 700;
+}
+
+#welcome-section h1 {
+  font-size: 4rem;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+#welcome-section #author {
+  color: rgb(241, 25, 25);
+}
+
+#welcome-section #special {
+  color: coral;
+}
+
+#projects {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  background-color: #242424;
+  padding: 30px 0;
+}
+
+#projects h2 {
+  font-size: 4rem;
+  color: #fff;
+  margin-bottom: 25px;
+}
+
+#projects .projects-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; 
+  gap: 30px;
+}
+
+#projects .projects-wrapper .project {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 350px;
+  height: 350px;
+  background-color: #1a1a1a;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+  border-radius: 5%;
+  cursor: pointer;
+  transition: .3s ease-in-out;
+}
+
+#projects .projects-wrapper .project:hover {
+  transform: scale(1.05);
+}
+
+#projects .projects-wrapper .project img {
+  width: 100%;
+  height: calc(100% - 7rem);
+  object-fit: cover;
+  border-radius: 5% 5% 0 0;
+}
+
+#projects .projects-wrapper .project a {
+  margin: auto;
+  font-size: 2.3rem;
+  color: rgb(168, 168, 168);
+  margin-bottom: 20px;
+  text-decoration: none;
+  transition: .2s ease-in-out;
+}
+
+#projects .projects-wrapper .project a:hover {
+  color: aqua;
+}
+
+#projects button {
+  width: 200px;
+  height: 50px;
+  background-color: brown;
+  border: none;
+  border-radius: 25px;
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: .3s ease-in-out;
+  margin-top: 40px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+#projects button:hover {
+  background-color: rgb(141, 20, 20);
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: var(--nav-height);
+  background-color: rgb(19, 19, 19);
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+footer #fake {
+  color: #fff;
+  font-size: 1.8rem;
+}
+
+footer address {
+  color: #fff;
+  font-size: 1.8rem;
+}
+
+footer address a {
+  color: brown;
+  font-size: 2rem;
+  transition: .3s ease-in-out;
+  text-decoration: none;
+}
+
+footer address a:hover {
+  font-size: 2.2rem;
+}

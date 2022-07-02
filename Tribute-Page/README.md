@@ -14,10 +14,10 @@
 ##### Aqui estão algumas imagens de como ficou a página de tributo
 
 Primeira parte <br />
-<img src="https://github.com/dev-david-alves/FCC-Projects/blob/main/Tribute-Page/images/img-1.png?raw=true" alt="image-1" width="500"/>
+<img src="https://github.com/dev-david-alves/Responsive-Web-Design-Certification/blob/main/Tribute-Page/images/img-1.png?raw=true" alt="image-1" width="500"/>
 
 Segunda parte <br />
-<img src="https://github.com/dev-david-alves/FCC-Projects/blob/main/Tribute-Page/images/img-2.png?raw=true" alt="image-2" width="500"/>
+<img src="https://github.com/dev-david-alves/Responsive-Web-Design-Certification/blob/main/Tribute-Page/images/img-2.png?raw=true" alt="image-2" width="500"/>
 
 Terceira parte <br />
-<img src="https://github.com/dev-david-alves/FCC-Projects/blob/main/Tribute-Page/images/img-3.png?raw=true" alt="image-3" width="500"/>
+<img src="https://github.com/dev-david-alves/Responsive-Web-Design-Certification/blob/main/Tribute-Page/images/img-3.png?raw=true" alt="image-3" width="500"/>

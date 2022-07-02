@@ -20,7 +20,31 @@ body {
   background: #1a1a1a;
 }
 
-.navbar {
+/* Scrollbar area */
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* Scrollbar area */
+
+#navbar {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -30,7 +54,7 @@ body {
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
-.navbar ul {
+#navbar ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -39,20 +63,20 @@ body {
   padding: 0;
 }
 
-.navbar ul li {
+#navbar ul li {
   display: flex;
   align-items: center;
   margin: 0 10px;
 }
 
-.navbar ul li a {
+#navbar ul li a {
   color: #fff;
   text-decoration: none;
   font-size: 1.8rem;
   transition: 0.3s ease-in-out;
 }
 
-.navbar ul li a:hover {
+#navbar ul li a:hover {
   color: red;
   font-size: 2rem;
 }
@@ -275,4 +299,128 @@ footer address a {
 
 footer address a:hover {
   font-size: 2.2rem;
+}
+
+/* Responsive */
+
+@media (max-width: 768px) {
+  #welcome-section {
+    height: calc(100vh - var(--nav-height));
+  }
+
+  #welcome-section #hello {
+    font-size: 3.5rem;
+  }
+
+  #welcome-section h1 {
+    font-size: 2.8rem;
+  }
+
+  #welcome-section i {
+    font-size: 5rem;
+  }
+
+  #projects h2 {
+    font-size: 3rem;
+  }
+
+  #projects .projects-wrapper {
+    grid-template-columns: 1fr;
+  }
+
+  #projects .projects-wrapper .project {
+    width: 300px;
+    height: 300px;
+  }
+
+  #projects .projects-wrapper .project img {
+    height: calc(100% - 7rem);
+  }
+
+  #projects .projects-wrapper .project a {
+    font-size: 1.8rem;
+  }
+
+  #contact {
+    height: 300px;
+  }
+
+  #contact h2 {
+    font-size: 3rem;
+  }
+
+  #contact span {
+    font-size: 1.5rem;
+  }
+
+  #contact .contact-area .brand {
+    padding: 0px 20px;
+    font-size: 1.5rem;
+  }
+
+  footer {
+    padding: 0 30px;
+  }
+
+  footer #fake {
+    width: 250px;
+    font-size: 1.4rem;
+  }
+
+  footer address {
+    font-size: 1.4rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  #projects h2 {
+    font-size: 3rem;
+  }
+
+  #projects .projects-wrapper {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  #projects .projects-wrapper .project {
+    width: 300px;
+    height: 300px;
+  }
+
+  #projects .projects-wrapper .project img {
+    height: calc(100% - 7rem);
+  }
+
+  #projects .projects-wrapper .project a {
+    font-size: 1.8rem;
+  }
+
+  #contact {
+    height: 300px;
+  }
+
+  #contact h2 {
+    font-size: 3rem;
+  }
+
+  #contact span {
+    font-size: 1.5rem;
+  }
+
+  #contact .contact-area .brand {
+    padding: 0px 20px;
+    font-size: 1.5rem;
+  }
+
+  footer {
+    padding: 0 30px;
+  }
+
+  footer #fake {
+    width: 250px;
+    font-size: 1.4rem;
+  }
+
+  footer address {
+    font-size: 1.4rem;
+  }
 }

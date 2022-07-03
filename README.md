@@ -1,5 +1,5 @@
 # Web Design Responsivo
-Estes são os projetos que eu criei para conseguir o certificado de 300 horas do curso de [Web Design Responsivo](https://www.freecodecamp.org/learn/2022/responsive-web-design/) do site Free Code Camp
+Estes são os projetos que eu criei para conseguir o [certificado de 300 horas](https://www.freecodecamp.org/certification/Dev-David-Alves/responsive-web-design) do curso de [Web Design Responsivo](https://www.freecodecamp.org/learn/2022/responsive-web-design/) do site Free Code Camp
 ###### Para mais informações sobre o projeto, olhe o README.MD do próprio projeto
 
 #### Projetos Desenvolvidos
@@ -107,6 +107,10 @@ Estes são os projetos que eu criei para conseguir o certificado de 300 horas do
     </td>
   </tr>
 </table> 
+
+<hr />
+
+### Veja meu certificado [online](https://www.freecodecamp.org/certification/Dev-David-Alves/responsive-web-design)
 
 <hr />
 
